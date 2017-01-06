@@ -1,0 +1,21 @@
+{
+  "mysql": {
+    "server": "localhost",
+    "database": "bestMovies",
+    "user": "root",
+    "password": "root"
+  },
+  "jwt": {
+    "secret": "TOP-SECRET",
+    "expiresIn": 600
+  },
+  "email": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "mooviesbest@gmail.com",
+      "pass": "thanksgmail"
+    }
+  }
+}

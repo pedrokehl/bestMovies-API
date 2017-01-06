@@ -1,0 +1,35 @@
+{
+  "name": "bestMovies",
+  "version": "1.0.0",
+  "description": "Locadora de filmes - bestMovies",
+  "license": "MIT",
+  "author": "Pedro Affonso Kehl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrokehl/bestMovies-API"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "nodemon": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "~1.15.1",
+    "compression": "^1.6.2",
+    "consign": "^0.1.2",
+    "express": "~4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mysql": "^2.12.0",
+    "nodemailer": "^2.6.4",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "nodemon": "^1.11.0"
+  },
+  "main": "server/server.js"
+}
